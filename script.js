@@ -15,9 +15,6 @@ function rot13(encodedStr){
 	for(let i=0; i<encodedStr.length; i++){
 		const char = encodedStr[i];
 		 decodedStr += lookup[char] || char;
-		
-	if(encodedStr.charAt[i] >= 'A' || charAt[i] <= 'Z'){
-		decodedstr = decodedstr + lookup[encodedStr.charAt[i]] || encodedStr.charAt[i];
 	}
 	return decodedstr;
 }
